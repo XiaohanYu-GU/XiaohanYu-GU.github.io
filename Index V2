@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr Alex Yu | Academic Homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+      color: #003366;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    a {
+      color: #003366;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f1f1f1;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dr Alex Yu</h1>
+    <p>Lecturer in Artificial Intelligence | Macquarie University</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a Lecturer in Artificial Intelligence at Macquarie University with research interests in computer vision, machine learning, and smart agriculture. I specialize in ultra-fine-grained visual categorization, representation learning, and domain adaptation. My work aims to bridge AI with real-world impact, particularly in sustainable agriculture.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+      <ul>
+        <li><strong>Ultra-Fine-Grained Visual Categorization</strong>: Created the largest dataset platform for cultivar classification [ICCV'21]</li>
+        <li><strong>Efficient Representation Learning</strong>: Developed Lie algebra-based self-supervised methods for efficient model training [PR'23]</li>
+        <li><strong>Cross-Domain AI</strong>: Focus on domain-aware continual learning for agriculture deployment [Pattern Recognition, AAAI, CVPR]</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <ul>
+        <li>Self-supervised Learning in Lie Algebra for Discriminative Visual Embedding. <em>Pattern Recognition</em>, 2023.</li>
+        <li>Ultra-FGVC: Cultivar Classification at Scale. <em>ICCV</em>, 2021.</li>
+        <li>Part-based Vision Transformers for Plant Recognition. <em>Pattern Recognition</em>, 2022.</li>
+      </ul>
+      <p>See full list on <a href="https://scholar.google.com">Google Scholar</a>.</p>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <p>I teach courses in machine learning and deep learning, with a focus on ethical and responsible AI development for real-world applications.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:alex.yu@mq.edu.au">alex.yu@mq.edu.au</a><br />
+         Twitter: <a href="https://twitter.com/yourhandle">@yourhandle</a> (optional)<br />
+         GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Dr Alex Yu. All rights reserved.
+  </footer>
+</body>
+</html>
